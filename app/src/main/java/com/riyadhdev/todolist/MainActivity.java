@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             ChangeActivityToTask();
             */
         }else {
-            myToast = new MakeToast(getApplicationContext(), "Is not SignIn");
+            myToast = new MakeToast(getApplicationContext(), "Is not Signin");
             myToast.showMessage();
         }
     }
